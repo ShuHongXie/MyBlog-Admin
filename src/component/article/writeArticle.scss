@@ -1,0 +1,14 @@
+#write_article {
+  & > span, #editor {
+    margin-bottom: 10px;
+  }
+  .ant-cascader-picker {
+    width: 100%!important;
+  }
+  .w-e-text-container {
+    z-index: 2!important;
+  }
+  // div {
+  //   z-index: 2!important;
+  // }
+}

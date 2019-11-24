@@ -1,0 +1,12 @@
+#category_edit {
+  & > div {
+    margin-bottom: 10px;
+    & > button {
+      margin-left: 10px;
+    }
+  }
+  
+}
+.ant-drawer-body > button {
+  margin-top: 10px!important;
+}

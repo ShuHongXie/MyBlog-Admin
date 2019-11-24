@@ -1,0 +1,65 @@
+{
+  "name": "blog-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "antd": "^3.16.1",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.11.0",
+    "customize-cra": "^0.2.12",
+    "highlight.js": "^9.15.8",
+    "jsencrypt": "^3.0.0-rc.1",
+    "marked": "^0.7.0",
+    "qs": "^6.7.0",
+    "react": "^16.8.6",
+    "react-app-rewired": "^2.1.1",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "simplemde": "^1.11.2",
+    "wangeditor": "^3.1.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "test": "react-app-rewired test",
+    "build": "react-app-rewired build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "no-undef": "off",
+      "no-restricted-globals": "off",
+      "no-unused-vars": "off",
+      "no-script-url ": "off"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.1.0"
+  },
+  "homepage": ".",
+  "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ]
+    ],
+    "presets": [
+      "react-app"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+#index {
+  height: 100%;
+  .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255,255,255,.2);  
+    margin: 16px  0;
+    float: left;
+  }
+  .ant-layout {
+    height: 100%;
+  }
+  .user_box {
+    color: #FFF;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .user_box {
+    cursor: pointer;
+  }
+}
