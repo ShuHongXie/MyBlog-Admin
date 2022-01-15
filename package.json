@@ -10,7 +10,7 @@
     "customize-cra": "^0.2.12",
     "highlight.js": "^9.15.8",
     "jsencrypt": "^3.0.0-rc.1",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "qs": "^6.7.0",
     "react": "^16.8.6",
     "react-app-rewired": "^2.1.1",
